@@ -1,0 +1,28 @@
+#publishing-action.post-lock--post-locked:before,
+#publishing-action.post-lock--post-unlocked:before {
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  font-family: dashicons;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  height: 20px;
+  line-height: 1.4;
+  text-align: center;
+  text-decoration: inherit;
+  vertical-align: top;
+  width: 20px;
+  margin-right: 5px; }
+
+#publishing-action.post-lock--post-locked:hover:before,
+#publishing-action.post-lock--post-unlocked:hover:before {
+  cursor: pointer; }
+
+#publishing-action.post-lock--post-locked:before {
+  content: "\f160"; }
+
+#publishing-action.post-lock--post-unlocked:before {
+  content: "\f528"; }
+
+#publish {
+  cursor: pointer; }
